@@ -1,0 +1,31 @@
+canvas {
+    background-color: #f0f0f5;
+    border: 5px solid black;
+}
+
+.game {
+    width: 200px;
+    float: left;
+}
+
+.control {
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.control button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.buttons {
+    width: 209px;
+    text-align: center;
+}
+
+.buttons input {
+    width: 100px;
+}

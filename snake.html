@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Snake</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script src="assets/js/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	  <script>
+		  $(document).ready(settings())
+	  </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '1678734105741805');
+      fbq('track', 'Purchase', {
+        content_ids: ['1011'],
+        content_type: 'product',
+        value: '0.50',
+        currency: 'EUR'
+        });
+      </script>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+    <div>
+        <div class="game">
+            <canvas id="area" width="200" height="200">
+                Your browser doesn't support canvases
+            </canvas>
+        </div>
+    </div>
+    <div class="buttons">
+        <input onclick="startGame()" type="button" value="Start game" id="start" style="float: left">
+        <input onclick="pauseGame()" type="button" value="Pause game" id="pause" style="float: right" disabled>
+        <input onclick="save_game()" type="button" value="Save game" id="save" style="float: left" disabled>
+        <input onclick="load_game()" type="button" value="Load game" id="load" style="float: right">
+    </div>
+    <div class="control">
+        <button onclick="game.player.turn(38)" style="margin-top: 20px">&uarr;</button><br>
+        <button onclick="game.player.turn(37)" style="margin-right: 22px; margin-top: 10px;">&larr;</button>
+        <button onclick="game.player.turn(39)" style="margin-left: 22px; margin-top: 10px;">&rarr;</button><br>
+        <button onclick="game.player.turn(40)" style="margin-top: 10px">&darr;</button>
+    </div>
+</body>
+</html>
+
+<!-- WSD PROJECT 2015-2016 - Aleksi, Antti, Veikko -->

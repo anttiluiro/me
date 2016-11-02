@@ -1,0 +1,58 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+<entry>
+  <title>
+    <![CDATA[ Vestfrost VKG571 SORT ]]>
+  </title>
+  <link href="http://omena.azurewebsites.net/feed.xml"/>
+  <mobile_link href="http://omena.azurewebsites.net/feed.xml"/>
+  <description>
+      <![CDATA[
+      <p><strong>text1 </strong><br /> text2 <br /> text3]]>
+      <![CDATA[
+      text4
+      ]]>
+  </description>
+  <g:id>1234</g:id>
+  <g:condition>new</g:condition>
+  <g:price>5876,00 EUR</g:price>
+  <g:availability>in stock</g:availability>
+  <g:image_link>
+    <![CDATA[http://omena.azurewebsites.net/images/m2.jpg]]>
+  </g:image_link>
+  <g:product_type>
+    <![CDATA[Cat1 > Cat2 > Cat3 > Tada]]>
+  </g:product_type>
+  <g:brand>Omena</g:brand>
+  <g:mpn>LETTERSAND123</g:mpn>
+  <g:gtin>12340</g:gtin>
+  <g:google_product_category>1000</g:google_product_category>
+</entry>
+<entry>
+  <title>
+    <![CDATA[ Vestfrost VKG571 SORT ]]>
+  </title>
+  <link href="http://omena.azurewebsites.net/feed.xml"/>
+  <mobile_link href="http://omena.azurewebsites.net/feed.xml"/>
+  <description>
+      <![CDATA[
+      <p><strong>text1 </strong><br /> text2 <br /> text3]]>
+      <![CDATA[
+      text4
+      ]]>
+  </description>
+  <g:id>12345</g:id>
+  <g:condition>new</g:condition>
+  <g:price>5876,00 EUR</g:price>
+  <g:availability>in stock</g:availability>
+  <g:image_link>
+    <![CDATA[http://omena.azurewebsites.net/images/m2.jpg]]>
+  </g:image_link>
+  <g:product_type>
+    <![CDATA[Cat1 > Cat2 > Cat3 > Tada]]>
+  </g:product_type>
+  <g:brand>Omena</g:brand>
+  <g:mpn>LETTERSAND123</g:mpn>
+  <g:gtin>12340</g:gtin>
+  <g:google_product_category>1000</g:google_product_category>
+</entry>
+</feed>
